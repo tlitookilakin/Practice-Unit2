@@ -25,6 +25,8 @@
 			else
 				Console.WriteLine($"{name}, you shouldn't give out that kind of information!");
 
+			// goodbye
+			Console.WriteLine($"Goodbye, {name}. Come back soon!");
 			Console.ReadKey();
 		}
 	}
